@@ -25,6 +25,12 @@ public class ej_compartido {
 		int lado2rec=entrada.nextInt();
 		System.out.println("El área del rectángulo es: " + areaRectangulo(lado1rec, lado2rec));
 		
+		//área de un cubo
+		System.out.println("Introduce el lado de un cubo: ");
+		int ladoCubo = entrada.nextInt();
+		System.out.println("El área de un cubo es: " + areaCubo(ladoCubo));
+		
+		
     }public static double calcularArea(int base, int altura) {
 	return base * altura / 2;
 
@@ -38,5 +44,7 @@ public class ej_compartido {
 	
 	}public static double areaRectangulo(int lado1rec,int lado2rec) {
 		return ((lado1rec*2) + (lado2rec*2));
+	}public static double areaCubo(int ladoCubo) {
+		return (ladoCubo*ladoCubo);
 	}
 }
