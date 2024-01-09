@@ -24,20 +24,17 @@ public class ej_compartido {
 		System.out.println("introduce el lado 2 del rectangulo");
 		int lado2rec=entrada.nextInt();
 		System.out.println("El área del rectángulo es: " + areaRectangulo(lado1rec, lado2rec));
-<<<<<<< HEAD
 		// calcular el volumen de un cubo
 		System.out.println("introduce un lado del cubo");
 		int ladocubo=entrada.nextInt();
 		System.out.println("el volumen del cubo es: "+volumenCubo(ladocubo));
-=======
+
 		
 		//área de un cubo
 		System.out.println("Introduce el lado de un cubo: ");
 		int ladoCubo = entrada.nextInt();
 		System.out.println("El área de un cubo es: " + areaCubo(ladoCubo));
 		
-		
->>>>>>> branch 'master' of https://github.com/leila52/sistemaControl.git
     }public static double calcularArea(int base, int altura) {
 	return base * altura / 2;
 
