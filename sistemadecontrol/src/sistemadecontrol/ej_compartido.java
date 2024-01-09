@@ -23,6 +23,7 @@ public class ej_compartido {
 		int lado1rec=entrada.nextInt();
 		System.out.println("introduce el lado 2 del rectangulo");
 		int lado2rec=entrada.nextInt();
+		System.out.println("El área del rectángulo es: " + areaRectangulo(lado1rec, lado2rec));
 		
     }public static double calcularArea(int base, int altura) {
 	return base * altura / 2;
